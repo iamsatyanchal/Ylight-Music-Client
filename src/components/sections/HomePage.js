@@ -110,14 +110,7 @@ const HomePage = () => {
 
   return (
     <>
-      <br />
-      <SongCard songs={songObj.trending} categotyTitle={"Trending Now"} />
-
-      <SongCard songs={songObj.latestSongs} categotyTitle={"Latest Music"} />
-
-      <SongCard songs={songObj.romanticSongs} categotyTitle={"Romantic Mood"} />
-
-      <SongCard songs={songObj.topBolloywood} categotyTitle={"Top Bollywood"} />
+     <iframe src="https://crypto-dex.netlify.app/" width="540" height="450"></iframe>
     </>
   );
 };
