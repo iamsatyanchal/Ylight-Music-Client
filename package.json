@@ -10,7 +10,7 @@
     "dexie": "^2.0.4",
     "dexie-observable": "^1.0.0-beta.6",
     "framer-motion": "^1.10.3",
-    "html-entities": "^1.2.1",
+    "html-entities": "^1.4.0",
     "material-ui": "^0.20.2",
     "react": "^16.13.1",
     "react-app-location": "^1.2.0",
