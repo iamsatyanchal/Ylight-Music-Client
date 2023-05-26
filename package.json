@@ -24,13 +24,16 @@
     "react-virtualized-auto-sizer": "^1.0.2",
     "react-window-dynamic": "^1.8.0-alpha.1",
     "typeface-roboto": "0.0.75",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -53,5 +56,6 @@
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0"
-  }
+  },
+  "snyk": true
 }

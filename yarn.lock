@@ -1280,6 +1280,11 @@
     style-value-types "^3.1.7"
     tslib "^1.10.0"
 
+"@snyk/protect@^1.1167.0":
+  version "1.1167.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1167.0.tgz#825bd97dba6a684f17345e727988a737668e9f73"
+  integrity sha512-KO0bzR1LDz5brLu549I+3FjVAqmR5UXpmjAjImaHm4yfG3cZ6gapxi+1hErHhZcCvzw7pwvpfGEOpiFIg2UYbQ==
+
 "@svgr/babel-plugin-add-jsx-attribute@^4.2.0":
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-4.2.0.tgz#dadcb6218503532d6884b210e7f3c502caaa44b1"
